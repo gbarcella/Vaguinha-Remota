@@ -75,17 +75,33 @@
               </li>
             </ul>
         </div>
-        
     </div>
 
+    <div class="container-fluid">
+      @yield('content')
+    </div>
 
-    {{-- Script Javascript Proprio --}}
-    <script src="{{ asset('js/js-site.js') }}"></script>
-    
-    {{-- Script Bootstrap 5 --}}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="container-fluid">
+      <footer class="py-3 my-4 footer">
+        <ul class="nav justify-content-center pb-3 mb-3">
+          <li class="nav-item"><a href="{{ route('/')}}" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Vagas</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Publicar uma Vaga</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2024 - Todos os direitos reservados!</p>
+      </footer>
+    </div>
 
-    {{-- Script Font Awesome Icons --}}
-    <script src="https://kit.fontawesome.com/37f085f6bc.js" crossorigin="anonymous"></script>
+  {{-- Script Javascript Proprio --}}
+  <script src="{{ asset('js/js-site.js') }}"></script>
+  
+  {{-- Script Bootstrap 5 --}}
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  {{-- Script Font Awesome Icons --}}
+  <script src="https://kit.fontawesome.com/37f085f6bc.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
+    
