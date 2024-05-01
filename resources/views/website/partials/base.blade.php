@@ -17,81 +17,78 @@
 
 </head>
 <body>
+  <div class="top-nav d-flex justify-content-around align-items-center">
+      <div class="top-nav-div-email">
+          <a href="mailto:vaguinharemota@gmail.com"><i class="fa-regular fa-envelope"></i> vaguinharemota@gmail.com</a>
+      </div>
 
-    <div class="container-fluid">
-        <div class="top-nav d-flex justify-content-around align-items-center">
-            <div class="top-nav-div-email">
-                <a href="mailto:vaguinharemota@gmail.com"><i class="fa-regular fa-envelope"></i> vaguinharemota@gmail.com</a>
-            </div>
+      <div class="top-nav-div-redes-sociais d-flex" >
+          <a href="http://instagram.com/vaguinharemota" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+          &nbsp;
+          <a href="http://facebook.com/vaguinharemota" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
+      </div>
+  </div>
 
-            <div class="top-nav-div-redes-sociais d-flex" >
-                <a href="http://instagram.com/vaguinharemota" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
-                &nbsp;
-                <a href="http://facebook.com/vaguinharemota" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-facebook"></i></a>
-            </div>
-        </div>
+  <nav>
+      <div class="logo">
+        <a href="{{ route('/')}}"><img src="{{asset('img/site/logotipo-navbar.png')}}" alt="logo" /></a>
+      </div>
 
-        <nav>
-            <div class="logo">
-              <a href="{{ route('/')}}"><img src="{{asset('img/site/logotipo-navbar.png')}}" alt="logo" /></a>
-            </div>
+      <ul>
+        <li>
+          <a href="{{ route('/')}}">Home</a>
+        </li>
+        <li>
+          <a href="#">Sobre</a>
+        </li>
+        <li>
+          <a href="#">Vagas</a>
+        </li>
+        <li>
+          <a href="#">Publicar uma Vaga</a>
+        </li>
+      </ul>
 
-            <ul>
-              <li>
-                <a href="{{ route('/')}}">Home</a>
-              </li>
-              <li>
-                <a href="#">Sobre</a>
-              </li>
-              <li>
-                <a href="#">Vagas</a>
-              </li>
-              <li>
-                <a href="#">Publicar uma Vaga</a>
-              </li>
-            </ul>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
 
-            <div class="hamburger">
-              <span class="line"></span>
-              <span class="line"></span>
-              <span class="line"></span>
-            </div>
+    </nav>
 
-          </nav>
+  <div class="menubar">
+      <ul>
+        <li>
+          <a href="{{ route('/')}}">Home</a>
+        </li>
+        <li>
+          <a href="#">Sobre</a>
+        </li>
+        <li>
+          <a href="#">Vagas</a>
+        </li>
+        <li>
+          <a href="#">Publicar uma Vaga</a>
+        </li>
+      </ul>
+  </div>
+   
 
-        <div class="menubar">
-            <ul>
-              <li>
-                <a href="{{ route('/')}}">Home</a>
-              </li>
-              <li>
-                <a href="#">Sobre</a>
-              </li>
-              <li>
-                <a href="#">Vagas</a>
-              </li>
-              <li>
-                <a href="#">Publicar uma Vaga</a>
-              </li>
-            </ul>
-        </div>
-    </div>
+  <div class="container">
+    @yield('content')
+  </div>
+    
+  <footer class="py-3 my-4 footer">
+    <ul class="nav justify-content-center pb-3 mb-3">
+      <li class="nav-item"><a href="{{ route('/')}}" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Vagas</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Publicar uma Vaga</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2024 - Todos os direitos reservados!</p>
+  </footer>
 
-    <div class="container-fluid">
-      @yield('content')
-    </div>
-
-    <div class="container-fluid">
-      <footer class="py-3 my-4 footer">
-        <ul class="nav justify-content-center pb-3 mb-3">
-          <li class="nav-item"><a href="{{ route('/')}}" class="nav-link px-2 text-muted">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Vagas</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Publicar uma Vaga</a></li>
-        </ul>
-        <p class="text-center text-muted">© 2024 - Todos os direitos reservados!</p>
-      </footer>
-    </div>
 
   {{-- Script Javascript Proprio --}}
   <script src="{{ asset('js/js-site.js') }}"></script>
