@@ -14,6 +14,10 @@ a {
 a:hover {
     color: #575656;
 }
+
+.texto-roxo {
+  color: #3F0B4B;
+}
 /* FIM GLOBAL CONFIG */
 
 /* TOP NAV CONFIG */
@@ -186,6 +190,38 @@ nav ul li a:hover {
 
 /* FIM FOOTER CONFIG */
 
+/* HOME VAGAS RECENTES */
+
+.home-div-box-vaga {
+  padding: 20px;
+  border-style: solid;
+  border-color: #3F0B4B;
+  border-radius: 20px;
+  max-width: 450px;
+}
+
+.home-div-logotipo-empresa-mais-titulo {
+  min-height: 100px;
+}
+
+.home-titulo-vaga {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.home-div-info-texto i {
+  color: #3F0B4B;
+}
+
+.home-data-criacao-vaga {
+  font-size: 12px;
+}
+
+.home-logotipo-empresa {
+  width: 60px;
+  height: 60px;
+}
+
 /* MEDIA QUERIES */
 
 /* 
@@ -221,6 +257,10 @@ nav ul li a:hover {
       color: #fff;
       font-size: 17px;
   }
+
+  .home-div-box-vaga {
+    margin-top: 20px;
+  }
 }
   
 /* 
@@ -240,6 +280,10 @@ nav ul li a:hover {
       font-size: 17px;
   }
 
+  .home-div-box-vaga {
+    margin-top: 20px;
+  }
+
 }
 
 /* 
@@ -257,6 +301,10 @@ nav ul li a:hover {
       background-color: #3F0B4B;
       color: #fff;
       font-size: 17px;
+  }
+
+  .home-div-box-vaga {
+    margin-top: 20px;
   }
 
 }
@@ -289,6 +337,10 @@ nav ul li a:hover {
   .img-hero-section-desktop {
     display: none !important;
   }
+
+  .home-div-box-vaga {
+    margin-top: 20px;
+  }
 }
 
 /* 
@@ -309,5 +361,9 @@ nav ul li a:hover {
 
   .img-hero-section-desktop {
     display: none !important;
+  }
+
+  .home-div-box-vaga {
+    margin-top: 20px;
   }
 }
