@@ -39,13 +39,13 @@
           <a href="{{ route('/')}}">Home</a>
         </li>
         <li>
-          <a href="#">Sobre</a>
+          <a href="{{ route('sobre') }}">Sobre</a>
         </li>
         <li>
-          <a href="#">Vagas</a>
+          <a href="{{ route('vagas') }}">Vagas</a>
         </li>
         <li>
-          <a href="#">Publicar uma Vaga</a>
+          <a href="{{ route('publicar-vaga' )}}">Publicar uma Vaga</a>
         </li>
       </ul>
 
@@ -63,13 +63,13 @@
           <a href="{{ route('/')}}">Home</a>
         </li>
         <li>
-          <a href="#">Sobre</a>
+          <a href="{{ route('sobre') }}">Sobre</a>
         </li>
         <li>
-          <a href="#">Vagas</a>
+          <a href="{{ route('vagas') }}">Vagas</a>
         </li>
         <li>
-          <a href="#">Publicar uma Vaga</a>
+          <a href="{{ route('publicar-vaga' )}}">Publicar uma Vaga</a>
         </li>
       </ul>
   </div>

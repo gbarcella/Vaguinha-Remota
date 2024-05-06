@@ -8,7 +8,7 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Aqui no Vaguinha Remota você vai encontrar o emprego dos sonhos, lhe permitindo trabalhar no conforto de casa, trazendo qualidade e saúde para a sua vida! </p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-hero btn-lg px-4 me-sm-3">Buscar Vagas!</button>
+        <a href="{{ route('vagas') }}"><button type="button" class="btn btn-hero btn-lg px-4 me-sm-3">Buscar Vagas!</button></a>
       </div>
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
@@ -33,9 +33,9 @@
             <div class="home-div-logotipo-empresa-mais-titulo d-flex justify-content-start align-items-center">
               <img src="{{ $vaga->logotipo_empresa }}" alt="" class="home-logotipo-empresa img-responsive align-self-center">
               &nbsp;&nbsp;
-              <p class="home-titulo-vaga texto-roxo align-self-center">{{ $vaga->titulo }}</p>
+              <a href="/vagas/{{$vaga->id}}"><p class="home-titulo-vaga texto-roxo align-self-center">{{ $vaga->titulo }}</p></a>
             </div>
-      
+      <hr>
             <div class="home-div-info-texto">
               <p class="home-empresa-vaga"><i class="fa-regular fa-building"></i> <b class="texto-roxo">Empresa:</b> {{ $vaga->nome_empresa }}</p>
               <p class="home-empresa-remuneracao"><i class="fa-solid fa-dollar-sign"></i> <b class="texto-roxo">Remuneração:</b> {{ $vaga->remuneracao }}</p>
@@ -43,7 +43,7 @@
             </div>
       
             <div class="home-div-botao-saiba-mais-vaga">
-              <button class="btn btn-hero">Saiba Mais</button>
+              <a href="/vagas/{{$vaga->id}}"><button class="btn btn-hero">Saiba Mais</button></a>
             </div>
           </div>
         </div>
