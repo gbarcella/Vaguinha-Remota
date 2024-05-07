@@ -16,7 +16,7 @@ a:hover {
 }
 
 .texto-roxo {
-  color: #3F0B4B;
+  color: #3F0B4B !important;
 }
 /* FIM GLOBAL CONFIG */
 
@@ -191,7 +191,6 @@ nav ul li a:hover {
 /* FIM FOOTER CONFIG */
 
 /* HOME VAGAS RECENTES */
-
 .home-div-box-vaga {
   padding: 20px;
   border-style: solid;
@@ -221,6 +220,17 @@ nav ul li a:hover {
   width: 60px;
   height: 60px;
 }
+/* FIM VAGAS RECENTES */
+
+/* PUBLICAR VAGA */
+
+.div-publicar-vaga {
+  padding: 50px;
+}
+
+
+
+/* FIM PUBLICAR VAGA */
 
 /* MEDIA QUERIES */
 

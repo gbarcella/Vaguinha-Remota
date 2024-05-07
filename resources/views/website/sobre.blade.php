@@ -6,7 +6,7 @@
 <div class="container py-5">
 	<div class="row">
 		<div class="col-md-4 align-self-center">
-			<div class="lc-block border-top py-4" style="letter-spacing:10px">
+			<div class="lc-block border-top py-4">
 				<div editable="rich">
 					<h2 class="texto-roxo"><strong>SOBRE NÓS</strong></h2>
 				</div>

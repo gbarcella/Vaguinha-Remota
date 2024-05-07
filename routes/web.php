@@ -8,6 +8,7 @@ Route::get('/', [HomeController::class, 'index'])->name('/');
 Route::get('/sobre', [HomeController::class, 'sobre'])->name('sobre');
 Route::get('/vagas', [HomeController::class, 'vagas'])->name('vagas');
 Route::get('/publicar-vaga', [HomeController::class, 'publicarVaga'])->name('publicar-vaga');
+Route::post('/cadastrar-vaga', [HomeController::class, 'cadastrarVaga'])->name('cadastrar-vaga');
 
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
