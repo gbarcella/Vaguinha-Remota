@@ -228,9 +228,45 @@ nav ul li a:hover {
   padding: 50px;
 }
 
-
-
 /* FIM PUBLICAR VAGA */
+
+/* VAGAS */
+
+/* FIM VAGAS */
+
+.container-vagas {
+  padding: 50px;
+}
+
+.container-vagas nav {
+  background-color: #fff !important;
+  box-shadow: unset !important;
+}
+
+.container-vagas .page-link {
+  background-color: #3F0B4B !important;
+}
+
+.card-vaga {
+  color: #3F0B4B;
+}
+
+/* VAGA */
+.container-vaga {
+  padding: 50px;
+}
+
+.card-vaga-especifica {
+  color: #3F0B4B;
+  width: 100%;
+  border-color: #3F0B4B;
+}
+
+.img-card-vaga-especifica {
+  width: 200px;
+  height: 200px;
+}
+/* FIM VAGA */
 
 /* MEDIA QUERIES */
 
@@ -294,6 +330,15 @@ nav ul li a:hover {
     margin-top: 20px;
   }
 
+  .btn-pesquisar-vaga {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .input-pesquisa-vaga-titulo-nome-empresa {
+    margin-top: 10px;
+  }
+
 }
 
 /* 
@@ -317,6 +362,14 @@ nav ul li a:hover {
     margin-top: 20px;
   }
 
+  .btn-pesquisar-vaga {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .input-pesquisa-vaga-titulo-nome-empresa {
+    margin-top: 10px;
+  }
 }
 
 /* 
@@ -351,6 +404,15 @@ nav ul li a:hover {
   .home-div-box-vaga {
     margin-top: 20px;
   }
+
+  .btn-pesquisar-vaga {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .input-pesquisa-vaga-titulo-nome-empresa {
+    margin-top: 10px;
+  }
 }
 
 /* 
@@ -375,5 +437,14 @@ nav ul li a:hover {
 
   .home-div-box-vaga {
     margin-top: 20px;
+  }
+
+  .btn-pesquisar-vaga {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .input-pesquisa-vaga-titulo-nome-empresa {
+    margin-top: 10px;
   }
 }

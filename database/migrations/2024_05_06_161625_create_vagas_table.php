@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('outras_informacoes');
             $table->string('link_candidatura');
             $table->string('nome_empresa');
-            $table->string('logotipo_empresa');
+            $table->string('logotipo_empresa')->default('https://images.tcdn.com.br/img/img_prod/840618/livre_teste_95_1_885fa8156198b5e059f20c92b095ecfc.jpg');
             $table->dateTime('data_expiracao');
             $table->timestamps();
         });
