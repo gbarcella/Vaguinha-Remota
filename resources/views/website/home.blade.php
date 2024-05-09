@@ -43,7 +43,7 @@
             </div>
       
             <div class="home-div-botao-saiba-mais-vaga">
-              <a href="/vagas/{{$vaga->id}}"><button class="btn btn-hero">Saiba Mais</button></a>
+              <a href="{{ route('vaga', ['id' => $vaga->id]) }}"><button class="btn btn-hero">Saiba Mais</button></a>
             </div>
           </div>
         </div>

@@ -82,9 +82,9 @@
   <footer class="py-3 my-4 footer">
     <ul class="nav justify-content-center pb-3 mb-3">
       <li class="nav-item"><a href="{{ route('/')}}" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Vagas</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Publicar uma Vaga</a></li>
+      <li class="nav-item"><a href="{{ route('sobre') }}" class="nav-link px-2 text-muted">Sobre</a></li>
+      <li class="nav-item"><a href="{{ route('vagas') }}" class="nav-link px-2 text-muted">Vagas</a></li>
+      <li class="nav-item"><a href="{{ route('publicar-vaga' )}}" class="nav-link px-2 text-muted">Publicar uma Vaga</a></li>
     </ul>
     <p class="text-center text-muted">© 2024 - Todos os direitos reservados!</p>
   </footer>
