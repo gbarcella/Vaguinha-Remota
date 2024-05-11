@@ -14,6 +14,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ config('app.name', 'Laravel') }} - Encontre a sua vaga remota</title>
 
+    {{-- AdSense Script --}}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7420756215098484"
+     crossorigin="anonymous"></script>
+
     {{-- Favicon --}}
     <link rel="icon" type="image/x-icon" href="{{ asset('img/site/favicon.png') }}">
 
