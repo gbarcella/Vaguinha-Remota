@@ -19,6 +19,38 @@
     </div>
   </div>
 
+  <div class="container d-flex justify-content-center">
+    <div class="mobileShow text-center">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '0e03b911ed788fff454feac7d62759e3',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.topcreativeformat.com/0e03b911ed788fff454feac7d62759e3/invoke.js"></script>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center">
+    <div class="mobileHide"> 
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '181c81e59d577e609148485689242501',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.topcreativeformat.com/181c81e59d577e609148485689242501/invoke.js"></script>
+    </div>
+  </div>
+
+  <br>
+
   <h2 class="text-center texto-roxo">
     Últimas Vagas Publicadas
   </h2>
@@ -33,7 +65,7 @@
             <div class="home-div-logotipo-empresa-mais-titulo d-flex justify-content-start align-items-center">
               <img src="{{ $vaga->logotipo_empresa }}" alt="" class="home-logotipo-empresa img-responsive align-self-center">
               &nbsp;&nbsp;
-              <a href="/vagas/{{$vaga->id}}"><p class="home-titulo-vaga texto-roxo align-self-center">{{ $vaga->titulo }}</p></a>
+              <a href="/vaga/{{$vaga->id}}"><p class="home-titulo-vaga texto-roxo align-self-center">{{ $vaga->titulo }}</p></a>
             </div>
       <hr>
             <div class="home-div-info-texto">
@@ -51,6 +83,38 @@
 
     </div>
 
+  </div>
+
+  <br>
+
+  <div class="container d-flex justify-content-center">
+    <div class="mobileShow text-center">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '0e03b911ed788fff454feac7d62759e3',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.topcreativeformat.com/0e03b911ed788fff454feac7d62759e3/invoke.js"></script>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center">
+    <div class="mobileHide"> 
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '181c81e59d577e609148485689242501',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.topcreativeformat.com/181c81e59d577e609148485689242501/invoke.js"></script>
+    </div>
   </div>
 
   <br>

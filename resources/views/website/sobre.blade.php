@@ -2,7 +2,37 @@
 
 @section('content')
  
-  
+<div class="container d-flex justify-content-center">
+	<br>
+    <div class="mobileShow text-center">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '0e03b911ed788fff454feac7d62759e3',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.topcreativeformat.com/0e03b911ed788fff454feac7d62759e3/invoke.js"></script>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center">
+    <div class="mobileHide"> 
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '181c81e59d577e609148485689242501',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.topcreativeformat.com/181c81e59d577e609148485689242501/invoke.js"></script>
+    </div>
+  </div>
+
 <div class="container py-5">
 	<div class="row">
 		<div class="col-md-4 align-self-center">
@@ -32,5 +62,36 @@
 	</div>
 </div> 
  
+<div class="container d-flex justify-content-center">
+    <div class="mobileShow text-center">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '0e03b911ed788fff454feac7d62759e3',
+          'format' : 'iframe',
+          'height' : 50,
+          'width' : 320,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.topcreativeformat.com/0e03b911ed788fff454feac7d62759e3/invoke.js"></script>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-center">
+    <div class="mobileHide"> 
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '181c81e59d577e609148485689242501',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.topcreativeformat.com/181c81e59d577e609148485689242501/invoke.js"></script>
+    </div>
+  </div>
+
+  <br>
   
 @stop

@@ -18,6 +18,25 @@ a:hover {
 .texto-roxo {
   color: #3F0B4B !important;
 }
+
+/* GLOBAL ADS TERRA */
+.mobileShow {display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+  .mobileHide { display: inline; }
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+     .mobileHide { display: none;}
+  }
+/* FIM GLOBAL ADS TERRA */
 /* FIM GLOBAL CONFIG */
 
 /* TOP NAV CONFIG */
